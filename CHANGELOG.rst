@@ -2,6 +2,10 @@
 Changelog for package wts_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2016-08-23)
+------------------
+* Fixed some mistakes that made the build to fail
+
 1.0.1 (2016-08-17)
 ------------------
 * First version
