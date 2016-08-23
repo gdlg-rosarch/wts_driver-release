@@ -24,6 +24,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES wts_driver serial_comm
   CATKIN_DEPENDS roscpp std_msgs message_runtime
+	DEPENDS Boost
 )
 
 
@@ -40,10 +41,7 @@ target_link_libraries(serial_comm ${Boost_LIBRARIES})
 # The WTS Driver.
 add_library(wts_driver src/wts_driver.cpp src/common.cpp)
 target_link_libraries(wts_driver serial_comm ${catkin_LIBRARIES})
-
-# Test program
-add_executable(testCRC src/testCRC.cpp)
-target_link_libraries(testCRC wts_driver ${catkin_LIBRARIES})
+add_dependencies(wts_driver wts_driver_gencpp)
 
 # The driver node
 add_executable(wts_driver_node src/main.cpp)
