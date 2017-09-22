@@ -1,3 +1,26 @@
+## wts_driver (lunar) - 1.0.4-0
+
+The packages in the `wts_driver` repository were released into the `lunar` distro by running `/usr/bin/bloom-release wts_driver --track lunar --rosdistro lunar --new-track` on `Fri, 22 Sep 2017 13:56:24 -0000`
+
+The `wts_driver` package was released.
+
+Version of package(s) in repository `wts_driver`:
+
+- upstream repository: https://github.com/ksatyaki/wts_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.6`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## wts_driver (kinetic) - 1.0.4-0
 
 The packages in the `wts_driver` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release wts_driver --track kinetic --rosdistro kinetic --new-track` on `Wed, 05 Oct 2016 17:45:59 -0000`
