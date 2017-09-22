@@ -1,0 +1,28 @@
+ros-lunar-wts-driver (1.0.4-1zesty) zesty; urgency=high
+
+  * Update install targets. Correct errors.
+  * Contributors: Chittaranjan Swaminathan Srinivas
+
+ -- Chittaranjan Srinivas Swaminathan <chitt@live.in>  Wed, 31 Aug 2016 22:00:00 -0000
+
+ros-lunar-wts-driver (1.0.3-1zesty) zesty; urgency=high
+
+  * Add install targets.
+  * Contributors: Chittaranjan Swaminathan Srinivas
+
+ -- Chittaranjan Srinivas Swaminathan <chitt@live.in>  Wed, 31 Aug 2016 22:00:00 -0000
+
+ros-lunar-wts-driver (1.0.2-1zesty) zesty; urgency=high
+
+  * Fixed some mistakes that made the build to fail
+
+ -- Chittaranjan Srinivas Swaminathan <chitt@live.in>  Mon, 22 Aug 2016 22:00:00 -0000
+
+ros-lunar-wts-driver (1.0.1-1zesty) zesty; urgency=high
+
+  * First version
+  * Contributors: Chittaranjan Srinivas Swaminathan, Chittaranjan Swaminathan Srinivas
+
+ -- Chittaranjan Srinivas Swaminathan <chitt@live.in>  Tue, 16 Aug 2016 22:00:00 -0000
+
+
